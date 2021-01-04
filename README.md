@@ -15,6 +15,7 @@ sudo dnf install brave-browser-nightly
 sudo dpkg -i filename.deb
 ```
 * .RMP installation
-```sudo rpm –i sample_file.rpm
-sudo yum localinstall sample_file.rpm
+```sudo yum localinstall sample_file.rpm
+sudo rpm –i sample_file.rpm
+
 ```
