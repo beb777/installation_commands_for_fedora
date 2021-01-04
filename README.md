@@ -4,7 +4,7 @@
 sudo dnf config-manager --add-repo https://repo.vivaldi.com/archive/vivaldi-fedora.repo
 sudo dnf install vivaldi-stable
 ```
-*brave
+* brave
 ```sudo dnf install dnf-plugins-core
 sudo dnf config-manager --add-repo https://brave-browser-rpm-nightly.s3.brave.com/x86_64/
 sudo rpm --import https://brave-browser-rpm-nightly.s3.brave.com/brave-core-nightly.asc
