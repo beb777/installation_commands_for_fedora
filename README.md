@@ -18,5 +18,5 @@ sudo dpkg -i filename.deb
 ```sudo yum localinstall sample_file.rpm
 sudo rpm –i sample_file.rpm
 ```
-* backup and restor tools
+* backup and restore tools
 `sudo yum install timeshift.x86_64`
