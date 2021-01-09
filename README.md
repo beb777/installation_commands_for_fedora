@@ -1,4 +1,4 @@
-# installation_commands_for_fedora
+# installation_commands_for_fedora33
  * vivaldi
 ```sudo dnf install dnf-utils
 sudo dnf config-manager --add-repo https://repo.vivaldi.com/archive/vivaldi-fedora.repo
@@ -20,3 +20,5 @@ sudo rpm –i sample_file.rpm
 ```
 * backup and restore tools
 `sudo yum install timeshift.x86_64`
+* install vim 
+`sudo dnf install vim-enhanced`
