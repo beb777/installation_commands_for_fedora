@@ -26,7 +26,7 @@ sudo rpm –i sample_file.rpm
 `tar -xvf filename.tar.xz`
 * to download website 
 `wget -r -p https://..........`
-* DNS resolver borked Fedora 33  fixing as root user. by using three line of code
+* DNS resolver borked after upgrading Fedora 33  fixing as root user. by using three line of code
 
 `# rm -f /etc/resolv.conf`    
 
