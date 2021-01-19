@@ -28,7 +28,7 @@ sudo rpm –i sample_file.rpm
 `wget -r -p https://..........`
 * DNS resolver borked Fedora 33  fixing as root user by command three line of code
 
-```# rm -f /etc/resolv.conf
-   # ln -s /run/systemd/resolve/resolv.conf /etc/resolv.conf
+`# rm -f /etc/resolv.conf`
+  ``` # ln -s /run/systemd/resolve/resolv.conf /etc/resolv.conf
    # systemctl stop systemd-resolved.service ; systemctl disable systemd-resolved.service
 ```
