@@ -22,3 +22,8 @@ sudo rpm –i sample_file.rpm
 `sudo yum install timeshift.x86_64`
 * install vim 
 `sudo dnf install vim-enhanced`
+* tar file  installed
+`tar -xvf filename.tar.xz`
+* to download website 
+`wget -r -p https://..........`
+
