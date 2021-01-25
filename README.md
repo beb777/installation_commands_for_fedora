@@ -24,7 +24,7 @@ sudo rpm –i sample_file.rpm
 `sudo dnf install vim-enhanced`
 * tar file  installed  
   - `tar -xvf filename.tar.xz`
-  - `tar xvzf filemane.tar.gz
+  - `tar xvzf filemane.tar.gz`
 * to download website 
 `wget -r -p https://..........`
 * DNS resolver borked after upgrading Fedora 33  fixing as root user. by using three line of code
