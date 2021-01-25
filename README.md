@@ -22,8 +22,9 @@ sudo rpm –i sample_file.rpm
 `sudo yum install timeshift.x86_64`
 * install vim 
 `sudo dnf install vim-enhanced`
-* tar file  installed
-`tar -xvf filename.tar.xz`
+* tar file  installed  
+  - `tar -xvf filename.tar.xz`
+  - `tar xvzf filemane.tar.gz
 * to download website 
 `wget -r -p https://..........`
 * DNS resolver borked after upgrading Fedora 33  fixing as root user. by using three line of code
