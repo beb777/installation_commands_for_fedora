@@ -17,12 +17,12 @@ sudo dnf install brave-browser-nightly
 
 `sudo dnf install -y gnome-tweak-tooly`  
 
-*Enable RPM Fusion  
+* Enable RPM Fusion  
 
 ```sudo rpm -Uvh http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm   
    sudo rpm -Uvh http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm 
 ```
-* instal jdk java  
+* install jdk, java  
 
 `sudo dnf install -y java-latest-openjdk`  
 
@@ -33,24 +33,30 @@ sudo dnf check-update
 sudo dnf install -y code  
 ```
 
-* .deb installation
+* .deb installation  
+
 ```sudo yum install dpkg
 sudo dpkg -i filename.deb
 ```
-* .rpm installation
+* .rpm installation  
+
 ```sudo yum localinstall sample_file.rpm
 sudo rpm –i sample_file.rpm
 ```
-* backup and restore tools
+* backup and restore tools  
+
 `sudo yum install timeshift.x86_64`
-* install vim 
+* install vim   
+
 `sudo dnf install vim-enhanced`
-* tar file  installed  
+* tar file  installed   
+
   - `tar -xvf filename.tar.xz`
   - `tar xvzf filemane.tar.gz`
 * to download website 
 `wget -r -p https://..........`
-* DNS resolver borked after upgrading Fedora 33  fixing as root user. by using three line of code
+* DNS resolver borked after upgrading Fedora 33  fixing as root user. by using three line of code  
+
 
 `# rm -f /etc/resolv.conf`    
 
