@@ -13,14 +13,17 @@ sudo dnf install brave-browser-nightly
 * install vlc media player   
 `sudo dnf install -y vlc`  
 
-* install tweak gnome
+* install tweak gnome  
+
 `sudo dnf install -y gnome-tweak-tooly`  
 
-*Enable RPM Fusion
+*Enable RPM Fusion  
+
 ```sudo rpm -Uvh http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm   
    sudo rpm -Uvh http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm 
 ```
-* instal jdk java
+* instal jdk java  
+
 `sudo dnf install -y java-latest-openjdk`  
 
 * install visual studio code editor 
