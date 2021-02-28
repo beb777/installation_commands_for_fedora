@@ -35,9 +35,9 @@ sudo dnf install -y code
 
 * .deb installation  
 
-```sudo yum install dpkg
-   sudo dpkg -i filename.deb
-```
+`sudo yum install dpkg`
+`sudo dpkg -i filename.deb`  
+
 * .rpm installation  
 
 ```sudo yum localinstall sample_file.rpm
