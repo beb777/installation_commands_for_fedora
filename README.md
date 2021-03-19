@@ -63,5 +63,8 @@ sudo rpm –i sample_file.rpm
 
   ` # ln -s /run/systemd/resolve/resolv.conf /etc/resolv.conf`  
   
-   `# systemctl stop systemd-resolved.service ; systemctl disable systemd-resolved.service`
+   `# systemctl stop systemd-resolved.service ; systemctl disable systemd-resolved.service`  
+  * js node 
+  `sudo dnf install nodejs`
+
 
